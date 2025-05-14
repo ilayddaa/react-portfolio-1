@@ -1,144 +1,90 @@
-const logotext = "JOHN";
+const logotext = "Lyda";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "İlayda",
+    description: "I’m İlayda. I’m a software developer. I work as a frontend developer at MACRO VITAL WELLNESS. ",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m İlayda",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I code, design and deliver",
+        second: "React front, .NET back",
+        third: "Solo dev, full power",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I’m İlayda, a Full Stack Web Developer with a focus on Frontend at MACRO VITAL WELLNESS.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Hi, I’m İlayda. I live in Istanbul and was born in 2004. My interest in technology grows every day, and I continue to develop myself in this field. I work in Full Stack Web Development, building projects by balancing both frontend and backend. I’m always striving to reach higher levels in the software world. I shape my life with technology, constantly improving myself through new projects. I’m always open to learning new things and aim to keep progressing in the tech industry.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    jobtitle: "Frontend Developer",
+    where: "MACRO VITAL WELLNESS",
+    date: "2025 - Present",
+},
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const skills = [
+    { name: "HTML", value: 90 },
+    { name: "CSS", value: 85 },
+    { name: "JavaScript", value: 80 },
+    { name: "React", value: 70 },
+    { name: "C#", value: 85 },
+    { name: ".NET", value: 80 },
+    { name: "ASP.NET Core", value: 75 },
+    { name: "Entity Framework Core", value: 70 },
+    { name: "SQL", value: 75 },
+    { name: "Bootstrap", value: 85 },
+    { name: "Git & GitHub", value: 80 },
+    { name: "PostgreSQL", value: 70 },
+    { name: "RESTful APIs", value: 75 },
+    { name: "MVC", value: 80 }
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Frontend Development",
+        description: "I build fast, modern, and responsive user interfaces using HTML, CSS, JavaScript, and React.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Backend Development",
+        description: "I develop secure and scalable backend systems with C# and .NET Core, focusing on performance and clean architecture.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+        title: "Full Stack Web Projects",
+        description: "From API development to responsive UI, I handle both frontend and backend to deliver complete, end-to-end web solutions.",
+    }
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [
+    {
+        img: "library.png",
+        description: "Library Project: In the MVC Library Project, I used ASP.NET Core MVC, Entity Framework Core, and Bootstrap to build a responsive library management system with CRUD functionality and category-based filtering.",
+        link: "https://github.com/senin-baska-proje",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "sportcenter.png",
+        description: "Sport Center: In the Sport Center Website project, I used Tailwind CSS, JavaScript, HTML, and CSS to develop a responsive and modern website for showcasing sport center services and activities.",
+        link: "https://github.com/senin-baska-proje",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "bilgi.png",
+        description: "Quiz Application: In the Quiz Application, I used React, Tailwind CSS, JavaScript, HTML, and CSS to create a responsive, interactive quiz platform with dynamic question flow and a smooth user experience across all devices.",
+        link: "https://github.com/senin-baska-proje",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "echopas.png",
+        description: "EchoPass: In the Echo Pass project, I used .NET Core, Entity Framework Core, PostgreSQL, JWT Authentication, custom middleware, the Unit of Work pattern, and asynchronous programming.",
+        link: "https://github.com/senin-projen",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "ilydatass@gmail.com",
+    description: " Got an idea or just wanna say hi? Don’t hesitate to reach out—I’d love to hear from you! ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +93,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/ilayddaa",
+    linkedin: "https://www.linkedin.com/in/ilaydatas/",
 };
 export {
     meta,
