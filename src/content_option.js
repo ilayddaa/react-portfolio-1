@@ -60,19 +60,19 @@ const services = [
 
 const dataportfolio = [
     {
+        img: "sportcenter.png",
+        description: "Sport Center: In the Sport Center Website project, I used Tailwind CSS, JavaScript, HTML, and CSS to develop a responsive and modern website for showcasing sport center services and activities.",
+        link: "https://github.com/ilayddaa/SportCenter",
+    },
+    {
         img: "library.png",
         description: "Library Project: In the MVC Library Project, I used ASP.NET Core MVC, Entity Framework Core, and Bootstrap to build a responsive library management system with CRUD functionality and category-based filtering.",
         link: "https://github.com/senin-baska-proje",
     },
     {
-        img: "sportcenter.png",
-        description: "Sport Center: In the Sport Center Website project, I used Tailwind CSS, JavaScript, HTML, and CSS to develop a responsive and modern website for showcasing sport center services and activities.",
-        link: "https://github.com/senin-baska-proje",
-    },
-    {
         img: "bilgi.png",
         description: "Quiz Application: In the Quiz Application, I used React, Tailwind CSS, JavaScript, HTML, and CSS to create a responsive, interactive quiz platform with dynamic question flow and a smooth user experience across all devices.",
-        link: "https://github.com/senin-baska-proje",
+        link: "https://github.com/ilayddaa/QuestionApp",
     },
     {
         img: "echopas.png",
