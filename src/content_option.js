@@ -11,7 +11,7 @@ const introdata = {
         second: "React front, .NET back",
         third: "Solo dev, full power",
     },
-    description: "I’m İlayda, a Full Stack Web Developer with a focus on Frontend at MACRO VITAL WELLNESS.",
+    description: "I’m İlayda, a Full Stack Web Developer.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
